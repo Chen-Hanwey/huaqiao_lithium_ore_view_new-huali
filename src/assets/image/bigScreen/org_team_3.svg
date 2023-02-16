@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="969px" height="256px" viewBox="0 0 969 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3</title>
+    <defs>
+        <path d="M3,5 L351.348411,5 L351.348411,5 L401.021266,34 L581,34 L631.225168,5 L966,5 C967.656854,5 969,6.34314575 969,8 L969,258 C969,259.656854 967.656854,261 966,261 L3,261 C1.34314575,261 1.52104299e-14,259.656854 0,258 L0,8 C-2.02906125e-16,6.34314575 1.34314575,5 3,5 Z" id="path-1"></path>
+        <filter x="-0.6%" y="-2.3%" width="101.2%" height="104.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.42148765   0 0 0 0 0.642805208   0 0 0 0 1  0 0 0 0.548238688 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="China-mobile-4" transform="translate(-928.000000, -801.000000)">
+            <g id="3" transform="translate(928.000000, 796.000000)">
+                <use fill-opacity="0.07" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#16A3FF" stroke-width="1" d="M631.359153,5.5 L966,5.5 C966.690356,5.5 967.315356,5.77982203 967.767767,6.23223305 C968.220178,6.68464406 968.5,7.30964406 968.5,8 L968.5,8 L968.5,258 C968.5,258.690356 968.220178,259.315356 967.767767,259.767767 C967.315356,260.220178 966.690356,260.5 966,260.5 L966,260.5 L3,260.5 C2.30964406,260.5 1.68464406,260.220178 1.23223305,259.767767 C0.779822031,259.315356 0.5,258.690356 0.5,258 L0.5,258 L0.5,8 C0.5,7.30964406 0.779822031,6.68464406 1.23223305,6.23223305 C1.68464406,5.77982203 2.30964406,5.5 3,5.5 L3,5.5 L351.213139,5.5 L400.885994,34.5 L581.133985,34.5 L631.359153,5.5 Z" stroke-linejoin="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

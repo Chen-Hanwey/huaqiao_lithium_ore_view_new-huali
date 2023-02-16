@@ -1,0 +1,340 @@
+.customForm .el-dialog {
+  margin-top: 20px !important;
+  //overflow: hidden;
+
+  width: 90%;
+}
+
+.customForm .el-dialog__body {
+  //padding: 10px 10%;
+  //color: #ffffff;
+  font-size: 14px;
+  word-break: break-all;
+  background-color: #ffffff;
+  //overflow-y: auto;
+}
+
+.customForm .el-dialog__header {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #eeeeee;
+}
+
+// .customForm .el-dialog__footer {
+//   border-top: 1px solid #eeeeee;
+// }
+
+.customForm .el-dialog__headerbtn .el-dialog__close {
+  color: #999999;
+}
+
+.customForm .el-dialog__headerbtn {
+  top: 5px;
+}
+
+.custom-form-item {
+  margin-bottom: 0px !important;
+}
+
+.customSelect .el-input.is-disabled .el-input__inner {
+  background-color: white;
+  color: #606266;
+}
+
+.customRadio .el-radio__input.is-disabled+span.el-radio__label {
+  color: #606266;
+  cursor: not-allowed;
+}
+
+.customRadio .el-radio__input.is-disabled .el-radio__inner {
+  background-color: white;
+  border-color: #dfe4ed;
+  cursor: not-allowed;
+}
+
+.vue-treeselect--disabled .vue-treeselect__control {
+  background-color: #fff !important;
+  cursor: not-allowed;
+}
+
+.customForm1 .el-dialog {
+  margin-top: 0px !important;
+  overflow: hidden;
+}
+
+.customForm1 .el-dialog__body {
+  padding: 10px 10%;
+  //color: #ffffff;
+  font-size: 14px;
+  word-break: break-all;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.customForm1 .el-dialog__header {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.customForm1 .el-dialog__footer {
+  border-top: 1px solid #eeeeee;
+}
+
+.customForm1 .el-dialog__headerbtn .el-dialog__close {
+  color: #999999;
+}
+
+.customForm1 .el-dialog__headerbtn {
+  top: 5px;
+}
+
+.customPreviewForm .el-dialog {
+  margin-top: 0px !important;
+  overflow: hidden;
+}
+
+.customPreviewForm .el-dialog__body {
+  padding: 0;
+  //color: #ffffff;
+  font-size: 14px;
+  word-break: break-all;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.customPreviewForm .el-dialog__header {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.customPreviewForm .el-dialog__footer {
+  border-top: 1px solid #eeeeee;
+}
+
+.customPreviewForm .el-dialog__headerbtn .el-dialog__close {
+  color: #999999;
+}
+
+.customPreviewForm .el-dialog__headerbtn {
+  top: 5px;
+}
+
+.sub-project {
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  //background-color: #d0d0d0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed #7f7b7b;
+  //padding-left: 10px;
+  text-align: left;
+  width: 100%;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #333;
+  height: 30px;
+  line-height: 26px;
+}
+
+.sub-title-name {
+  display: inline-block;
+  border-bottom: 6px solid rgb(24, 144, 255);
+  //border-bottom: 5px solid #f70000;
+  padding: 0 10px;
+}
+
+.sub-body {
+  padding: 10px 20px 0 0;
+  border: 1px dotted #e2e2e2;
+}
+
+.sub-body-nopadding {
+  border: 1px dotted #e2e2e2;
+}
+
+.el-dialog__footer {
+  padding: 13px 10px 10px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.dialog-footer .el-button--primary {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
+
+.dialog-footer .el-button--primary:hover {
+  background-color: #409EFF;
+  border-color: #409EFF;
+  opacity: 0.8;
+}
+
+.baseForm .el-dialog__footer {
+  border-top: 1px solid #eeeeee !important;
+}
+
+.baseForm .el-dialog__body {
+  padding: 12px !important;
+}
+
+.el-input.is-disabled .el-input__inner {
+  background-color: #F5F7FA;
+  border-color: #dfe4ed;
+  color: #949494 !important;
+  cursor: not-allowed;
+}
+
+._baseForm_big {
+  .el-dialog {
+    margin-top: 88px !important;
+    width: 1100px;
+  }
+
+  .el-dialog__body {
+    padding: 10px 30px;
+    font-size: 14px;
+    word-break: break-all;
+    background-color: #ffffff;
+    overflow-y: auto;
+    height: 510px;
+  }
+
+  .el-dialog--center .el-dialog__header {
+    text-align: left;
+  }
+
+  .el-dialog__header {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #eeeeee;
+    text-align: left;
+  }
+
+  .el-dialog__footer {
+    border-top: 1px solid #eeeeee;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close {
+    color: #999999;
+  }
+
+  el-dialog__headerbtn {
+    top: 5px;
+  }
+
+  .el-input{
+    width:220px !important;
+  }
+  .vue-treeselect__control {
+    height:32px !important;
+    width:220px !important;
+  }
+  .vue-treeselect__value-container{
+    line-height: 30px !important;
+  }
+  .vue-treeselect__placeholder, .vue-treeselect__single-value{
+    line-height: 30px !important;
+    font-size: 13px;
+  }
+}
+
+._baseForm_small {
+  .el-dialog {
+    margin-top: 100px !important;
+    width: 900px;
+  }
+
+  .el-dialog__body {
+    padding: 10px 30px;
+    font-size: 14px;
+    word-break: break-all;
+    background-color: #ffffff;
+    overflow-y: auto;
+    height: 450px;
+  }
+
+  .el-dialog--center .el-dialog__header {
+    text-align: left;
+  }
+
+  .el-dialog__header {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #eeeeee;
+    text-align: left;
+  }
+
+  .el-dialog__footer {
+    border-top: 1px solid #eeeeee;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close {
+    color: #999999;
+  }
+
+  el-dialog__headerbtn {
+    top: 5px;
+  }
+
+
+  .el-input{
+    width:220px !important;
+  }
+  .vue-treeselect__control {
+    height:32px !important;
+    width:220px !important;
+  }
+  .vue-treeselect__value-container{
+    line-height: 30px !important;
+  }
+  .vue-treeselect__placeholder, .vue-treeselect__single-value{
+    line-height: 30px !important;
+    font-size: 13px;
+  }
+}
+
+.exam-module {
+  margin-top: 10px !important;
+  padding: 10px !important;
+  border: 1px solid #dedede !important;
+  background-color: #fcfcfc !important;
+}
+
+.amap-sug-result {
+  border: none !important;
+}
+.vue-treeselect__control{
+  height:32px !important;
+}
+.el-dialog__headerbtn {
+  top:10px !important;
+}
+.condition-item{
+
+  .vue-treeselect__control {
+    height:32px !important;
+  }
+  .vue-treeselect__value-container{
+    line-height: 30px !important;
+  }
+  .vue-treeselect__placeholder, .vue-treeselect__single-value{
+    line-height: 30px !important;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,36 @@
+/deep/ .dv-scroll-board .header{
+  font-size:12px !important;
+  height:36px;
+  line-height:36px;
+  color: #71b4ef;
+}
+/deep/ .dv-scroll-board .header .header-item {
+  line-height:36px !important;
+}
+/deep/ .dv-scroll-board .rows .row-item {
+  font-size: 12px;
+}
+/deep/ .rows{
+  color:#ffffff
+}
+.scrollBoard_bg{
+  background:#000000;
+  position:absolute;
+  width:calc(100% - 8px);
+  filter: alpha(Opacity=30);
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+}
+.content_module{
+  padding: 4px 4px 4px 4px;
+  position:relative;
+  .content_module_title{
+    background: url("~@/assets/image/bigScreen/content_module_title_bg.png") no-repeat;
+    height:30px;
+    font-size:14px;
+    line-height:30px;
+    padding-left:28px;
+    color:#cde8fd;
+    letter-spacing: 1px;
+  }
+}

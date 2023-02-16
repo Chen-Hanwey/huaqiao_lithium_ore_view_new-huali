@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="515px" height="256px" viewBox="0 0 515 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1</title>
+    <defs>
+        <path d="M3,5 L120.348411,5 L120.348411,5 L170.021266,34 L350,34 L400.225168,5 L512,5 C513.656854,5 515,6.34314575 515,8 L515,258 C515,259.656854 513.656854,261 512,261 L3,261 C1.34314575,261 2.02906125e-16,259.656854 0,258 L0,8 C-2.02906125e-16,6.34314575 1.34314575,5 3,5 Z" id="path-1"></path>
+        <filter x="-1.2%" y="-2.3%" width="102.3%" height="104.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.42148765   0 0 0 0 0.642805208   0 0 0 0 1  0 0 0 0.548238688 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="China-mobile-4" transform="translate(-928.000000, -231.000000)">
+            <g id="1" transform="translate(928.000000, 226.000000)">
+                <use fill-opacity="0.07" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#16A3FF" stroke-width="1" d="M120.213139,5.5 L169.885994,34.5 L350.133985,34.5 L400.359153,5.5 L512,5.5 C512.690356,5.5 513.315356,5.77982203 513.767767,6.23223305 C514.220178,6.68464406 514.5,7.30964406 514.5,8 L514.5,8 L514.5,258 C514.5,258.690356 514.220178,259.315356 513.767767,259.767767 C513.315356,260.220178 512.690356,260.5 512,260.5 L512,260.5 L3,260.5 C2.30964406,260.5 1.68464406,260.220178 1.23223305,259.767767 C0.779822031,259.315356 0.5,258.690356 0.5,258 L0.5,258 L0.5,8 C0.5,7.30964406 0.779822031,6.68464406 1.23223305,6.23223305 C1.68464406,5.77982203 2.30964406,5.5 3,5.5 L3,5.5 L120.213139,5.5 Z" stroke-linejoin="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

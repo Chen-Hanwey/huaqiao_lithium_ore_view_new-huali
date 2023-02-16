@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="451px" height="416px" viewBox="0 0 451 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5</title>
+    <defs>
+        <path d="M3,5 L102.123243,5 L102.123243,5 L151.796098,34 L291.774832,34 L342,5 L447.99278,5 C449.649634,5 450.99278,6.34314575 450.99278,8 C450.99278,8.00240384 450.992777,8.00480768 450.992771,8.00721152 L450.007194,418.007212 C450.003218,419.661245 448.661242,421 447.007203,421 L3,421 C1.34314575,421 2.02906125e-16,419.656854 0,418 L0,8 C-2.02906125e-16,6.34314575 1.34314575,5 3,5 Z" id="path-1"></path>
+        <filter x="-1.3%" y="-1.4%" width="102.7%" height="102.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.42148765   0 0 0 0 0.642805208   0 0 0 0 1  0 0 0 0.548238688 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="China-mobile-5" transform="translate(-972.000000, -636.000000)">
+            <g id="5" transform="translate(972.000000, 631.000000)">
+                <use fill-opacity="0.07" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#16A3FF" stroke-width="1" d="M447.99278,5.5 C448.683136,5.5 449.308136,5.77982203 449.760547,6.23223305 C450.212958,6.68464406 450.49278,7.30964406 450.492781,7.99879809 L450.492781,7.99879809 L449.507196,418.00601 C449.505539,418.69519 449.225132,419.318688 448.772844,419.76989 C448.320556,420.221093 447.696386,420.5 447.007203,420.5 L447.007203,420.5 L3,420.5 C2.30964406,420.5 1.68464406,420.220178 1.23223305,419.767767 C0.779822031,419.315356 0.5,418.690356 0.5,418 L0.5,418 L0.5,8 C0.5,7.30964406 0.779822031,6.68464406 1.23223305,6.23223305 C1.68464406,5.77982203 2.30964406,5.5 3,5.5 L3,5.5 L101.987971,5.5 L151.660827,34.5 L291.908817,34.5 L342.133985,5.5 Z" stroke-linejoin="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+.group-box_left{
+  position: relative;
+  height: 306px;
+  .group-box-title{
+    height:43px;
+    line-height: 43px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: "PingFang SC";
+    color: #cde4ff;
+    padding-left: 38px;
+    background: url("~@/views/dataV/assets/images/sub_title.png") no-repeat;
+  }
+  .group-box-content_bg {
+    position: absolute;
+    z-index: 1;
+    top:43px;
+    width: 460px;
+    height: 263px;
+    opacity: 0.8;
+    background: rgba(0, 26, 53, 0.75);
+  }
+  .group-box-content {
+    position: absolute;
+    z-index: 2;
+    top:43px;
+    width: 460px;
+    height: 262px;
+  }
+}
+.group-box_right{
+  position: relative;
+  height: 427px;
+  .group-box-title{
+    height:43px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    font-family: "PingFang SC";
+    color: #cde4ff;
+    font-size: 19px;
+    padding-left: 38px;
+    background: url("~@/views/dataV/assets/images/sub_title.png") no-repeat;
+  }
+  .group-box-content_bg {
+    position: absolute;
+    z-index: 1;
+    top:43px;
+    width: 460px;
+    height: 385px;
+    opacity: 0.8;
+    background: rgba(0, 26, 53, 0.75);
+  }
+  .group-box-content {
+    position: absolute;
+    z-index: 2;
+    top:43px;
+    width: 460px;
+    height: 385px;
+  }
+}
+

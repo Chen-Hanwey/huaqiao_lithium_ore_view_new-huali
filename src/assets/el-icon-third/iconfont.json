@@ -1,0 +1,23 @@
+{
+  "id": "2040362",
+  "name": "autonomy",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-third-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16916415",
+      "name": "点赞",
+      "font_class": "like",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "14311390",
+      "name": "点赞",
+      "font_class": "unlike",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    }
+  ]
+}
